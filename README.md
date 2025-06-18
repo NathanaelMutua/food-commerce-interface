@@ -1,12 +1,39 @@
-# React + Vite
+# Fast Food Menu with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic webpage created using React with JavaScript
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. [Features](#features)
+2. [Live Demo Site](#live-demo-site)
+3. [Getting Started](#getting-started)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Header
+
+![Header Section](./public/header-screenshot.png)
+
+- Food Listings
+
+![Listings Section](./public/listings-screenshot.png)
+
+## Live Demo site
+
+Visit the site: [Food Commerce Interface Vercel](https://food-commerce-interface.vercel.app/)
+
+## Getting Started
+
+- Fork the repo
+- Clone it from your personal forked repo
+- Install dependencies:
+
+  ```bash
+  npm install
+  ```
+
+- Run the site locally:
+
+  ```bash
+  npm run dev
+  ```
