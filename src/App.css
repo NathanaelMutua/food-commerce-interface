@@ -140,3 +140,28 @@ html {
   font-weight: 700;
 }
 /* End of food listings section */
+
+/* Start of Media Queries */
+@media screen and (max-width: 41.5625em) {
+  .button-cta {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .menu-wrapper {
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  .menu-item {
+    padding: 0.8 0rem;
+  }
+
+  .menu-item p {
+    display: none;
+  }
+}
+/* End of Media Queries */
