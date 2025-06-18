@@ -2,6 +2,7 @@ const foodListings = [
   {
     title: "Cheese Burger",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/burger.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -15,6 +16,7 @@ const foodListings = [
   {
     title: "French Fries",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/french-fries.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -29,6 +31,7 @@ const foodListings = [
   {
     title: "Grilled Steak",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/grilled-steak.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -36,6 +39,7 @@ const foodListings = [
   {
     title: "Pancake",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/pancake.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -43,6 +47,7 @@ const foodListings = [
   {
     title: "Pizza",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/pizza.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -50,6 +55,7 @@ const foodListings = [
   {
     title: "Ramen And Egg",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/ramen-and-egg.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -57,6 +63,7 @@ const foodListings = [
   {
     title: "Pilau",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/pilau.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -71,6 +78,7 @@ const foodListings = [
   {
     title: "Orange Cocktail",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/orange-cocktail.jpg",
     price: 300,
     rating: 4,
     discount: 100,
@@ -78,6 +86,7 @@ const foodListings = [
   {
     title: "Watermelon Mocktail",
     description: "Cheesy, juicy and extremely tasty!",
+    image: "/watermelon-beet-mocktail.jpg",
     price: 300,
     rating: 4,
     discount: 100,

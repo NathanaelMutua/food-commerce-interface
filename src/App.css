@@ -16,10 +16,7 @@ html {
   font-family: var(--main-font);
 }
 
-/* body {
-  padding: 1rem 2rem;
-} */
-
+/* Beginning of header styling  */
 .header {
   display: flex;
   justify-content: space-between;
@@ -53,3 +50,83 @@ html {
   background-color: var(--active-red);
   border-radius: 0.5rem;
 }
+/* End of Header styling */
+
+/* Beginning of food listings section */
+.listings-section {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.food-card-wrapper {
+  width: 35rem;
+  height: 28rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 3px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.image-content-wrapper {
+  height: 18rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.discount {
+  display: inline-block;
+  background-color: rgb(255, 191, 0);
+  color: white;
+  padding: 0.4rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.rating-wrapper {
+  position: relative;
+  left: 28rem;
+  top: 12rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  background-color: white;
+  font-size: 1.15rem;
+  font-family: var(--sub-font);
+  font-weight: 600;
+  border-radius: 0.25rem;
+}
+
+.star-icon {
+  color: rgb(255, 191, 0);
+}
+
+.food-content-wrapper {
+  padding: 0 1.2rem;
+}
+
+.food-content-wrapper h2 {
+  font-family: var(--sub-font);
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.description {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  color: var(--active-red);
+  font-size: 1.5rem;
+  font-family: var(--sub-font);
+  font-weight: 700;
+}
+/* End of food listings section */
