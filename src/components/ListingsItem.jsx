@@ -1,16 +1,21 @@
 import FoodListingItem from "./FoodListingsItem";
+import foodListings from "../data/foodData";
 
 function ListingItem() {
   return (
     <section className="listings-section">
-      <FoodListingItem
-        image="/burger.jpg"
-        title="Cheese Burger"
-        description="Cheesy, juicy, tasty warm beef burger"
-        price="40.00"
-        rating="5"
-        discount="10"
-      />
+      {foodListings.map((listing) => {
+        return (
+          <FoodListingItem
+            image={listing.image}
+            title={listing.title}
+            description={listing.description}
+            price={listing.price}
+            rating={listing.rating}
+            discount={listing.discount}
+          />
+        );
+      })}
     </section>
   );
 }
